@@ -8,13 +8,21 @@
     "build": "tsc",
     "prepare": "npm run build"
   },
-  "files": ["dist"],
-  "keywords": ["s3", "kv", "json", "storage"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "s3",
+    "kv",
+    "json",
+    "storage"
+  ],
   "author": "Ajay Thakur",
   "license": "MIT",
   "dependencies": {
     "@aws-sdk/client-cloudfront": "^3.651.1",
-    "@aws-sdk/client-s3": "^3.614.0"
+    "@aws-sdk/client-s3": "^3.614.0",
+    "axios": "^1.7.7"
   },
   "devDependencies": {
     "@types/node": "^22.5.5",
