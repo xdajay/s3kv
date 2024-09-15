@@ -4,6 +4,10 @@
   "description": "S3KV is a lightweight TypeScript package that provides a JSON key-value store built on top of AWS S3 and CloudFront. It offers a simple interface for storing and retrieving JSON data with low-latency performance, leveraging the global distribution capabilities of CloudFront.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xdajay/s3kv.git"
+  },
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build"
